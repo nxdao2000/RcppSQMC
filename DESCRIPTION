@@ -14,7 +14,7 @@ LazyLoad: yes
 LazyData: yes
 License: GPL(>= 2)
 Collate: generics.R RcppExports.R pfilter2.R pfilter2-methods.R is2.R is2-methods.R SQMC_SV.R Models.R MarginalPMCMC.R SQMC_Univ.R SQMC_Neuro.R
-Authors: Dao Nguyen [aut, cre], Edward L. Ionides [aut]
+Authors: Dao Nguyen [aut, cre]
 Maintainer: Dao Nguyen <nguyenxd@umich.edu>
 Repository: R-Forge
 Repository/R-Forge/Project: RcppSQMC
