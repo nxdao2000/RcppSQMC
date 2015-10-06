@@ -1,0 +1,28 @@
+Package: RcppSQMC
+Type: Package
+Title: Iterated smoothing for partially observed Markov processes
+Version: 0.10-1
+Date: 2015-04-03
+Authors@R: c(person(given=c("Dao"),family="Nguyen", role=c("aut","cre"), email="nguyenxd@umich.edu"),
+	  person(given=c("Edward","L."),family="Ionides",role=c("aut"))
+	  )
+URL: http://RcppSQMC.r-forge.r-project.org
+Description: Inference methods using iterated smoothing for partially-observed Markov processes
+Depends: R(>= 3.0.0), pomp, Rcpp,RcppEigen
+Imports: stats, graphics, mvtnorm, deSolve, coda, Rcpp (>= 0.11.5),RcppEigen, RcppGSL, mnormt, gtools
+LinkingTo: Rcpp,RcppEigen, RcppGSL
+LazyLoad: yes
+LazyData: yes
+License: GPL(>= 2)
+Collate: generics.R RcppExports.R pfilter2.R pfilter2-methods.R is2.R is2-methods.R SQMC_SV.R Models.R MarginalPMCMC.R SQMC_Univ.R SQMC_Neuro.R
+Authors: Dao Nguyen [aut, cre], Edward L. Ionides [aut]
+Maintainer: Dao Nguyen <nguyenxd@umich.edu>
+Repository: R-Forge
+Repository/R-Forge/Project: RcppSQMC
+Repository/R-Forge/Revision: 11
+Repository/R-Forge/DateTimeStamp: 2015-08-02 22:38:09
+Date/Publication: 2015-08-02 22:38:09
+Packaged: 2015-08-02 22:50:10 UTC; rforge
+Author: Dao Nguyen [aut, cre],
+  Edward L. Ionides [aut]
+NeedsCompilation: yes

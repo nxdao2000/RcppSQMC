@@ -1,0 +1,26 @@
+useDynLib(RcppSQMC, pfilter2_computations)
+import(pomp)
+import(mnormt)
+import(gtools)
+importFrom(Rcpp,sourceCpp)
+exportClasses(is2, pfilterd2.pomp
+            )
+exportMethods(plot,logLik,pfilter2,
+              particles,is2,continue
+            )
+export(
+       QMC,
+       RQMC,
+       HilbertResampler,
+	SQMC_SV1,
+	SVM_sim,
+	NL_sim,
+	Neuro_sim,
+	SQMCBack_SV1,
+	SQMC2F_SV1,
+	Marginal_PMCMC,
+	SQMC_Univ1,
+	SQMCBack_Univ1,
+	SQMC_Neuro1
+
+)
