@@ -1,10 +1,9 @@
 Package: RcppSQMC
 Type: Package
-Title: Iterated smoothing for partially observed Markov processes
+Title: Wrapping sequential Quasi Monte Carlo package of Gerber and Chopin using Rcpp
 Version: 0.10-1
 Date: 2015-04-03
-Authors@R: c(person(given=c("Dao"),family="Nguyen", role=c("aut","cre"), email="nguyenxd@umich.edu"),
-	  person(given=c("Edward","L."),family="Ionides",role=c("aut"))
+Authors@R: c(person(given=c("Dao"),family="Nguyen", role=c("aut","cre"), email="nguyenxd@umich.edu")
 	  )
 URL: http://RcppSQMC.r-forge.r-project.org
 Description: Inference methods using iterated smoothing for partially-observed Markov processes
@@ -23,6 +22,5 @@ Repository/R-Forge/Revision: 11
 Repository/R-Forge/DateTimeStamp: 2015-08-02 22:38:09
 Date/Publication: 2015-08-02 22:38:09
 Packaged: 2015-08-02 22:50:10 UTC; rforge
-Author: Dao Nguyen [aut, cre],
-  Edward L. Ionides [aut]
+Author: Dao Nguyen [aut, cre]
 NeedsCompilation: yes
